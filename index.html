@@ -4,60 +4,65 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Text-adventure</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
-      rel="stylesheet"
-    />
+    <title>prototype</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1>Text-adventure title</h1>
-    <h2>a text adventure</h2>
-
-    <div class="question-container">
-      <p id="exposition">placeholder exposition</p>
-      <p id="question">placeholder question</p>
-
-      <div class="typing-container">
-        <input
-          class="input-ui input-box left"
-          type="text"
-          id="name"
-          placeholder="Enter your name"
-        />
-        <button class="input-ui input-button left" id="text-input">
-          Enter
-        </button>
-        <div class="clear"></div>
+    <header class="margin-bottom">
+      <div class="header-block">
+        <h1>POV</h1>
+        <h2>Expand your perspective</h2>
       </div>
-      <div class="button-container">
-        <button class="answer input-ui input-button left" id="1"></button>
-        <button class="answer input-ui input-button left" id="2"></button>
-        <div class="clear"></div>
+      <div class="bg-img"></div>
+    </header>
+    <section class="margin-bottom">
+      <div class="width-40 collum-left">
+        <h2>About us</h2>
+        <p>
+          We are a group of Communication and Multimedia Design students from
+          Hogeschool Zuyd.
+        </p>
+        <p>
+          Tonight, we tried to show the importance of desgining with a target
+          audience in mind.
+        </p>
       </div>
-      <div class="roll-container">
-        <span id="rollresult">10</span>
-        <img
-          id="dice"
-          src="img/614-6147045_d20-dice-png-transparent-png.png"
-          alt="dice"
-        />
-        <button class="input-ui input-button" id="roll">Roll!</button>
-      </div>
-    </div>
 
-    <!-- scripts -->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="js/script.js"></script> -->
+      <div class="width-40 collum-right margin-bottom">
+        <h2>Get in touch</h2>
+        <div class="margin-bottom">
+          <h3>Simon van Strijp</h3>
+          <div>
+            <img src="img/mail.png" alt="Email" class="left" />
+            <p class="left">2106251strijp@zuyd.nl</p>
+            <div class="clear"></div>
+          </div>
+          <div>
+            <img src="img/telephone.png" alt="Phone" class="left" />
+            <p class="left">+31 6 319 305 39</p>
+            <div class="clear"></div>
+          </div>
+        </div>
+
+        <div>
+          <h3>Juul Curvers</h3>
+          <div>
+            <img src="img/mail.png" alt="Email" class="left" />
+            <p class="left">2106936curvers@zuyd.nl</p>
+            <div class="clear"></div>
+          </div>
+          <div>
+            <img src="img/telephone.png" alt="Phone" class="left" />
+            <div class="left">
+              <p>+32 4 935 448 00</p>
+              <p>50 cent per minute.</p>
+            </div>
+
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
